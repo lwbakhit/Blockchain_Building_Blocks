@@ -1,0 +1,38 @@
+node1: 
+$ ./geth --datadir node1 account new
+INFO [02-09|20:58:18.958] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password:
+Repeat password:123
+
+Your new key was generated
+
+Public address of the key:   0x0E5a7b058F91C86D556387C177F936aE3fb3a298
+
+
+node2: 
+$ ./geth --datadir node2 account new
+INFO [02-09|20:59:08.942] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password:
+Repeat password:234
+
+Your new key was generated
+
+Public address of the key:   0x9bEDE591e3e76C328cf32cE87459bb7Ae119e1De
+
+
+Start node1: 
+
+INFO [02-09|22:00:29.130] Commit new mining work                   number=2 sealhash=49705f…9e85ea uncles=0 txs=0 gas=0 fees=0 elapsed=999.6µs
+
+enode://4b377f4f2788f1b81aee07aea44e499e5de44114145339009b9725741b35d3fbd50bac7eef42e6c737cfb2104ae1c1403d61c178c09263b8fa9fd7860d8faa42@127.0.0.1:30303
+
+Start node2: 
+
+INFO [02-09|22:05:27.534] Commit new mining work                   number=3 sealhash=4e5469…07f97b uncles=0 txs=0 gas=0 fees=0 elapsed=6.98ms
+
+
+
+
+
